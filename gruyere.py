@@ -385,9 +385,6 @@ class GruyereRequestHandler(BaseHTTPRequestHandler):
 # def _DoDeleteSnippet(self, cookie, specials, params, session):
 #     """Handles the /deletesnippet url: delete the indexed snippet.
 
-#     This method has been updated to include XSRF protection by verifying
-#     a session-based token before proceeding with the deletion.
-
 #     Args:
 #       cookie: The cookie for this request.
 #       specials: Other special values for this request.
